@@ -1,0 +1,46 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+    background: #E0EAFC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+position: relative;
+}
+h2{
+    color: #003c66;
+}
+
+.contact_us{
+    width: 60%;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.822);  /* fallback for old browsers */
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+         
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #834d9b 0%, #d04ed6  51%, #834d9b  100%);
+    margin: 10px;
+    padding: 10px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+  @media screen and (max-width:480px) {
+    .contact_us{
+        width: 95%;
+    }
+  }
+ 
